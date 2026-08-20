@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>CampusConnect</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <a href="#" class="logo">CampusConnect</a>
+
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#events">Events</a>
+            <a href="#resources">Resources</a>
+        </nav>
+
+        <button class="menu-button">☰</button>
+    </header>
+
+    <main>
+
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <p class="subtitle">YOUR CAMPUS, CONNECTED</p>
+
+                <h1>Stay connected with your campus.</h1>
+
+                <p>
+                    Find events, resources and opportunities
+                    in one simple place.
+                </p>
+
+                <a href="#events" class="button">Explore Events</a>
+            </div>
+        </section>
+
+
+        <section id="events" class="events">
+
+            <div class="section-heading">
+                <p class="subtitle">WHAT'S HAPPENING</p>
+                <h2>Upcoming Events</h2>
+            </div>
+
+            <div class="event-controls">
+                <input
+                    type="text"
+                    id="searchInput"
+                    placeholder="Search events..."
+                >
+
+                <div class="filters">
+                    <button class="filter active">All</button>
+                    <button class="filter">Hackathons</button>
+                    <button class="filter">Workshops</button>
+                    <button class="filter">Seminars</button>
+                </div>
+            </div>
+
+            <div class="event-container">
+
+                <article class="event-card" data-type="hackathon">
+                    <p class="event-date">24 AUG</p>
+                    <h3>Campus Hackathon</h3>
+                    <p>
+                        A practical coding event for students
+                        interested in building new ideas.
+                    </p>
+                    <button class="details-button">View Details</button>
+                </article>
+
+                <article class="event-card" data-type="workshops">
+                    <p class="event-date">28 AUG</p>
+                    <h3>Web Development Workshop</h3>
+                    <p>
+                        Learn the fundamentals of building
+                        responsive web interfaces.
+                    </p>
+                    <button class="details-button">View Details</button>
+                </article>
+
+                <article class="event-card" data-type="seminars">
+                    <p class="event-date">30 AUG</p>
+                    <h3>Career Seminar</h3>
+                    <p>
+                        Get practical guidance on preparing
+                        for internships and placements.
+                    </p>
+                    <button class="details-button">View Details</button>
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <section id="resources" class="resources">
+
+            <div class="section-heading">
+                <p class="subtitle">CAMPUS SUPPORT</p>
+                <h2>Useful Resources</h2>
+            </div>
+
+            <div class="resource-container">
+
+                <article class="resource-card">
+                    <h3>Library</h3>
+                    <p>
+                        Find books, study spaces and academic resources.
+                    </p>
+                </article>
+
+                <article class="resource-card">
+                    <h3>Computer Labs</h3>
+                    <p>
+                        Access campus systems and laboratory facilities.
+                    </p>
+                </article>
+
+                <article class="resource-card">
+                    <h3>Student Clubs</h3>
+                    <p>
+                        Discover clubs and activities based on your interests.
+                    </p>
+                </article>
+
+                <article class="resource-card">
+                    <h3>Placement Cell</h3>
+                    <p>
+                        Find career resources, opportunities and guidance.
+                    </p>
+                </article>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <footer>
+        <div>
+            <strong>CampusConnect</strong>
+            <p>Making campus information easier to find.</p>
+        </div>
+
+        <p>© 2026 CampusConnect</p>
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
